@@ -31,5 +31,7 @@ module.exports = {
     "import/no-unresolved": "off",
     "import/extensions": "off",
     "no-console": "off",
+    "@typescript-eslint/camelcase": "off",
+    "class-methods-use-this": "off",
   },
 };

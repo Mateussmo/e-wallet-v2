@@ -1,4 +1,4 @@
-import { tsjPreset } from "ts-jest/presets";
+const { defaults: tsjPreset } = require("ts-jest/presets");
 
 module.exports = {
   // All imported modules in your tests should be mocked automatically
